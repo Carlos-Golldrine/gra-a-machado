@@ -43,13 +43,13 @@ const Index = () => {
               <LinkCard
                 icon={<WhatsAppLogo size={28} />}
                 title="WhatsApp"
-                url="https://wa.me/5561992979832?text=ola%20vim%20pelo%20goldcard"
+                url="https://wa.me/5561992979832"
                 delay={0.8}
               />
               <LinkCard
                 icon={<InstagramLogo size={28} />}
                 title="Instagram"
-                url="https://instagram.com/valmircamilo"
+                url="https://www.instagram.com/gracamachado133/"
                 delay={0.9}
               />
             </div>
