@@ -41,18 +41,6 @@ const Index = () => {
               </button>
 
               <LinkCard
-                icon={<Globe className="w-6 h-6" />}
-                title="Conheça a ANABB"
-                url="https://www.anabb.org.br/"
-                delay={0.7}
-              />
-              <LinkCard
-                icon={<InstagramLogo size={28} />}
-                title="Instagram ANABB"
-                url="https://www.instagram.com/anabbevoce"
-                delay={0.75}
-              />
-              <LinkCard
                 icon={<WhatsAppLogo size={28} />}
                 title="WhatsApp"
                 url="https://wa.me/5561992979832?text=ola%20vim%20pelo%20goldcard"
