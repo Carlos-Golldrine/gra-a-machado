@@ -7,9 +7,7 @@ import LinkCard from "@/components/LinkCard";
 import Footer from "@/components/Footer";
 import AboutDialog from "@/components/AboutDialog";
 import WhatsAppLogo from "@/assets/logos/WhatsAppLogo";
-import LinkedInLogo from "@/assets/logos/LinkedInLogo";
 import InstagramLogo from "@/assets/logos/InstagramLogo";
-import FacebookLogo from "@/assets/logos/FacebookLogo";
 
 const Index = () => {
   const [showHero, setShowHero] = useState(true);
@@ -57,26 +55,14 @@ const Index = () => {
               <LinkCard
                 icon={<WhatsAppLogo size={28} />}
                 title="WhatsApp"
-                url="https://wa.me/5561981240674?text=ola%20vim%20pelo%20goldcard"
+                url="https://wa.me/5561992979832?text=ola%20vim%20pelo%20goldcard"
                 delay={0.8}
-              />
-              <LinkCard
-                icon={<LinkedInLogo size={28} />}
-                title="LinkedIn"
-                url="https://www.linkedin.com/in/valmir-marques-camilo-798574a6"
-                delay={0.9}
               />
               <LinkCard
                 icon={<InstagramLogo size={28} />}
                 title="Instagram"
                 url="https://instagram.com/valmircamilo"
-                delay={1.0}
-              />
-              <LinkCard
-                icon={<FacebookLogo size={28} />}
-                title="Facebook"
-                url="https://www.facebook.com/profile.php?id=100000669888293&ref=_ig_profile_ac"
-                delay={1.1}
+                delay={0.9}
               />
             </div>
 
