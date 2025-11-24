@@ -52,6 +52,18 @@ const Index = () => {
                 url="https://instagram.com/valmircamilo"
                 delay={0.9}
               />
+              <LinkCard
+                icon={<Globe className="w-6 h-6" />}
+                title="Conheça a ANABB"
+                url="https://www.anabb.org.br/"
+                delay={1.0}
+              />
+              <LinkCard
+                icon={<InstagramLogo size={28} />}
+                title="Instagram ANABB"
+                url="https://www.instagram.com/anabbevoce"
+                delay={1.1}
+              />
             </div>
 
             <AboutDialog open={aboutOpen} onOpenChange={setAboutOpen} />
