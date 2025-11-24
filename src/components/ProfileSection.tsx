@@ -39,7 +39,7 @@ const ProfileSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
         >
-          Presidente da ANABB
+          Vice-Presidência de Relações Institucionais
         </motion.p>
         <motion.p
           className="text-lg text-muted-foreground mt-2"
