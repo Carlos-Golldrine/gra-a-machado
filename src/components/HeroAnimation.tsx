@@ -103,7 +103,7 @@ const HeroAnimation = ({ onComplete }: { onComplete: () => void }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.2 }}
         >
-          Presidente da ANABB
+          Vice-Presidência de Relações Institucionais
         </motion.p>
       </div>
     </motion.div>
