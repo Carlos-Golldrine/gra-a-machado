@@ -52,18 +52,30 @@ const Index = () => {
                 url="https://instagram.com/valmircamilo"
                 delay={0.9}
               />
-              <LinkCard
-                icon={<Globe className="w-6 h-6" />}
-                title="Conheça a ANABB"
-                url="https://www.anabb.org.br/"
-                delay={1.0}
-              />
-              <LinkCard
-                icon={<InstagramLogo size={28} />}
-                title="Instagram ANABB"
-                url="https://www.instagram.com/anabbevoce"
-                delay={1.1}
-              />
+            </div>
+
+            <div className="max-w-2xl mx-auto px-6 pt-12 pb-12">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <a
+                  href="https://www.anabb.org.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-card/60 backdrop-blur-sm border border-border/50 rounded-lg p-4 transition-all duration-300 hover:border-institutional-gold hover:shadow-md hover:shadow-institutional-gold/10"
+                >
+                  <Globe className="w-5 h-5 text-institutional-gold" />
+                  <span className="text-sm font-medium text-foreground">Conheça a ANABB</span>
+                </a>
+                
+                <a
+                  href="https://www.instagram.com/anabbevoce"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-card/60 backdrop-blur-sm border border-border/50 rounded-lg p-4 transition-all duration-300 hover:border-institutional-gold hover:shadow-md hover:shadow-institutional-gold/10"
+                >
+                  <InstagramLogo size={20} />
+                  <span className="text-sm font-medium text-foreground">Instagram ANABB</span>
+                </a>
+              </div>
             </div>
 
             <AboutDialog open={aboutOpen} onOpenChange={setAboutOpen} />
