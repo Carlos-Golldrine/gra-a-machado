@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import valmirPhoto from "@/assets/valmir.jpg";
+import gracaPhoto from "@/assets/anabb-instagram.jpg";
 
 const ProfileSection = () => {
   return (
@@ -18,8 +18,8 @@ const ProfileSection = () => {
         >
           <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-institutional-gold/30 shadow-2xl box-glow">
             <img 
-              src={valmirPhoto} 
-              alt="Valmir Marques Camilo" 
+              src={gracaPhoto} 
+              alt="Graça Machado" 
               className="w-full h-full object-cover"
             />
           </div>
@@ -31,7 +31,7 @@ const ProfileSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Valmir Marques Camilo
+          Graça Machado
         </motion.h1>
         <motion.p
           className="text-xl md:text-2xl text-institutional-gold font-medium tracking-wide"

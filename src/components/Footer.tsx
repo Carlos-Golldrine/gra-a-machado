@@ -9,7 +9,7 @@ const Footer = () => {
       transition={{ delay: 1.2 }}
     >
       <p className="text-muted-foreground italic text-lg font-light max-w-2xl mx-auto leading-relaxed">
-        "Liderança, experiência e compromisso com os associados do Banco do Brasil."
+        "Pioneira e defensora da saúde e liderança feminina no BB ❤️"
       </p>
       <div className="mt-6 flex justify-center">
         <div className="w-16 h-1 bg-gradient-to-r from-transparent via-institutional-gold to-transparent rounded-full"></div>

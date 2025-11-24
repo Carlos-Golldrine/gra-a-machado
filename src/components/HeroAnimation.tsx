@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import valmirPhoto from "@/assets/valmir.jpg";
+import gracaPhoto from "@/assets/anabb-instagram.jpg";
 
 const HeroAnimation = ({ onComplete }: { onComplete: () => void }) => {
   const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; delay: number }>>([]);
@@ -81,8 +81,8 @@ const HeroAnimation = ({ onComplete }: { onComplete: () => void }) => {
         >
           <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-institutional-gold/30 shadow-2xl box-glow">
             <img 
-              src={valmirPhoto} 
-              alt="Valmir Marques Camilo" 
+              src={gracaPhoto} 
+              alt="Graça Machado" 
               className="w-full h-full object-cover"
             />
           </div>
@@ -94,7 +94,7 @@ const HeroAnimation = ({ onComplete }: { onComplete: () => void }) => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          Valmir Marques Camilo
+          Graça Machado
         </motion.h1>
 
         <motion.p
