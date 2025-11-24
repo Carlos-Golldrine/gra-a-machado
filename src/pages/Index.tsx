@@ -49,6 +49,12 @@ const Index = () => {
                 delay={0.7}
               />
               <LinkCard
+                icon={<InstagramLogo size={28} />}
+                title="Instagram ANABB"
+                url="https://www.instagram.com/anabbevoce"
+                delay={0.75}
+              />
+              <LinkCard
                 icon={<WhatsAppLogo size={28} />}
                 title="WhatsApp"
                 url="https://wa.me/5561981240674?text=ola%20vim%20pelo%20goldcard"
